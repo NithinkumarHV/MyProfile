@@ -7,6 +7,10 @@ h6 {
   font-family: Poppins;
 }
 
+h2 {
+  font-size: 28px;
+}
+
 p {
   font-family: Roboto;
 }
@@ -48,7 +52,7 @@ h1 {
   background: #f1f1f1;
   padding: 20px 0 20px 0;
   text-align: center;
-  margin: 15px 0 15px 0;
+  margin: 15px 0 0px 0;
 }
 
 #testimonial p {
@@ -80,6 +84,9 @@ h1 {
 .skill-item {
   padding: 5px;
 }
+.container {
+  padding: 16px 16px 0px 16px;
+}
 
 #footer {
   background: white;
@@ -90,7 +97,7 @@ h1 {
 /*xs*/
 @media (max-width: 575px) {
   .navbar-brand {
-    font-size: 25px;
+    font-size: 28px;
     color: black !important;
     font-weight: bold;
   }
@@ -113,6 +120,9 @@ h1 {
     padding: 0px;
     width: 80%;
     height: 80%;
+  }
+  h2 {
+    font-size: 28px;
   }
   .card {
     margin: 0px 20px 20px 20px;
