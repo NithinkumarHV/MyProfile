@@ -76,3 +76,18 @@ p {
   width: 300px;
   height: 200px;
 }
+
+.skill-item {
+  padding: 5px;
+}
+
+#footer {
+  background: white;
+  color: black;
+}
+
+@media (max-width: 575px) {
+  .skill-item {
+    margin: 0px 50px 0px 50px;
+  }
+}
