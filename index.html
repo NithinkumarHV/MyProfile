@@ -110,7 +110,7 @@
     <section id="testimonial">
       <div class="container">
         <h2 class="customer">About me</h2>
-        <p>
+        <p data-aos="fade-right" data-aos-duration="1000">
           A passionate computer science engineer and a developer looking for
           opportunities to build a career in software development. Like to keep
           it simple and accurate. The more you work the more you learn is my
@@ -137,9 +137,11 @@
           ></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
         </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-interval="5000">
+        <div class="carousel-inner" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div class="carousel-item active" data-interval="5000" >
             <img src="img/image.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-md-block">
               <h5>Player Panel</h5>
@@ -165,7 +167,7 @@
           </div>
           <div class="carousel-item" data-interval="5000">
             <img src="img/image.jpg" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-md-block">
+            <div class="carousel-caption d-md-block" >
               <h5>DevConnector</h5>
               <p>
                 Technologies Used : Reactjs, Redux, Nodejs, MongoDB
@@ -189,9 +191,10 @@
           </div>
           <div class="carousel-item" data-interval="5000">
             <img src="img/image.jpg" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-md-block">
+            <div class="carousel-caption d-md-block mx-auto">
               <h5>Slack Bot</h5>
               <p>
+                Technologies Used :  Nodejs, Slack.</br>
                 A slack bot for efficient management of meetings held by an
                 organisation
               </p>
@@ -199,11 +202,53 @@
                 <a
                   href="https://github.com/NithinkumarHV/Slack_Bot"
                   style="color: white;"
-                  >Git Link</a
+                  >Github</a
                 >
               </button>
             </div>
           </div>
+          <div class="carousel-item" data-interval="5000">
+            <img src="img/image.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block">
+              <h5>WeConnect</h5>
+              <p>
+                Technologies Used :  Nodejs, ExpressJS, MySQL , MongoDB
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#weconnect"
+              >
+                 Info
+              </button>
+              <button type="button" class="btn btn-success">
+                <a
+                  href="https://github.com/NithinkumarHV/Weconnect"
+                  style="color: white;"
+                  >Github</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="5000">
+            <img src="img/image.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block">
+              <h5>Smart Classroom</h5>
+              <p>
+                A project built with an idea of automating the classrooms in
+                our college according to the college schedules.
+              </p>
+              <button type="button" class="btn btn-success">
+                <a
+                  href="https://github.com/NithinkumarHV/Smart-Classroom"
+                  style="color: white;"
+                  >Github</a
+                >
+              </button>
+            </div>
+          </div>
+
         </div>
         <a
           class="carousel-control-prev"
@@ -302,7 +347,7 @@
         <h2>Education</h2>
       </div>
       <div class="row ">
-        <div class="col-md-4 card">
+        <div class="col-md-4 card" data-aos="fade-right" data-aos-duration="1000">
             <div class="card-body" >
               <h5 class="card-title">SSLC</h5>
               <h5 class="card-title">Karnataka Board</h5>
@@ -310,14 +355,14 @@
               <p class="card-text">Percentage : 97.44</p>
           </div>
         </div>
-        <div class="col-md-4 card">
+        <div class="col-md-4 card" data-aos="fade-up" data-aos-duration="1000">
           <div class="card-body">
             <h5 class="card-title">PUC</h5>
             <h5 class="card-title">Karnataka Board</h5>
             <h6 class="card-subtitle mb-2 text-muted">Government PU College , Thirthahalli</h6>
             <p class="card-text">Percentage : 97.67 PCMB</p>
         </div></div>
-        <div class="col-md-4 card">
+        <div class="col-md-4 card" data-aos="fade-left" data-aos-duration="1000">
           <div class="card-body">
             <h5 class="card-title">Bachelor of Engineering</h5>
             <h5 class="card-title">From VTU</h5>
@@ -366,7 +411,7 @@
         <h2>Programming Skills</h2>
       </div>
       <div class="row">
-       <div class="col-md-6 col-sm-6 col-lg-3 skill-item">
+       <div class="col-md-6 col-sm-6 col-lg-3 skill-item" >
          <button class="btn btn-success btn-md btn-block">C, C++</button>
        </div>
        <div class="col-md-6 col-sm-6 col-lg-3 skill-item">
@@ -465,6 +510,48 @@
                 href="https://arcane-fortress-17784.herokuapp.com/"
                 style="color: white;"
                 >Link</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for projects WeConnect -->
+    <div
+      class="modal fade"
+      id="weconnect"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="weconnectLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="weconnectLabel">WeConnect</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              A website that enables students and lecturers to build their
+              profile, share their knowledge and also to get updates
+              regarding all the events going on in a college
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">
+              <a
+                href="https://github.com/NithinkumarHV/Weconnect"
+                style="color: white;"
+                >Github</a
               >
             </button>
           </div>
