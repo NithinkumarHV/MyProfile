@@ -85,7 +85,8 @@
               <h1>
                 Nithin Kumar H V
               </h1>
-              <h5>Full Stack Web Developer</h5>
+              <h5>Full Stack Web Developer proficient in, </h5>
+              <h5>ReactJS, NodeJS, ExpressJS , MySQl and MongoDB</h5>
               <h5>nithinkumarhv01@gamil.com <a href="mailto: nithinkumarhv01@gamil.com" style="color:black"><i class="fa fa-envelope fa-x" ></i></a></h5>
               <div class="icons">
                 <a href="https://www.linkedin.com/in/nithin-kumar-h-v-54870816a/">
@@ -111,8 +112,7 @@
       <div class="container">
         <h2 class="customer">About me</h2>
         <p data-aos="fade-right" data-aos-duration="1000">
-          A passionate computer science engineer and a developer looking for
-          opportunities to build a career in software development. Like to keep
+          A passionate computer science engineer and a full stack developer with knowledge of various web development frameworks and libraries who is looking for opportunities to build a career in software development. Like to keep
           it simple and accurate. The more you work the more you learn is my
           principle.
         </p>
@@ -428,7 +428,8 @@
 
     <footer >
     <div id="footer" class="container-fluid text-center p-3">
-      Copyright &copy; 2020 nithinkumarhv.com 
+      Copyright &copy; 2020 nithinkumarhv.com  
+      <a id="back-to-top" href="#" class="btn btn-dark btn-md back-to-top" style="float:right" role="button"><i class="fas fa-chevron-up"></i></a>
     </div>
   </footer>
 
@@ -636,6 +637,25 @@
       </div>
      </div>
     </body>
+
+    <script>
+            $(document).ready(function(){
+              $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                 $('#back-to-top').fadeIn();
+                } else {
+                  $('#back-to-top').fadeOut();
+                }
+              });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function () {
+              $('body,html').animate({
+                scrollTop: 0
+              }, 1000);
+              return false;
+            });
+          });
+    </script>
     
     
     <script>
