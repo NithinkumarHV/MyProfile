@@ -427,9 +427,11 @@
     </div>
 
     <footer >
-    <div id="footer" class="container-fluid text-center p-3">
+    <div id="footer" class="container text-center p-3">
       Copyright &copy; 2020 nithinkumarhv.com  
-      <a id="back-to-top" href="#" class="btn btn-dark btn-md back-to-top" style="float:right" role="button"><i class="fas fa-chevron-up"></i></a>
+      
+      <a id="back-to-top" href="#" class="btn btn-dark btn-md back-to-top" style="float:right;" role="button"><i class="fas fa-chevron-up"></i></a>
+    
     </div>
   </footer>
 
@@ -640,13 +642,6 @@
 
     <script>
             $(document).ready(function(){
-              $(window).scroll(function () {
-                if ($(this).scrollTop() > 50) {
-                 $('#back-to-top').fadeIn();
-                } else {
-                  $('#back-to-top').fadeOut();
-                }
-              });
             // scroll body to 0px on click
             $('#back-to-top').click(function () {
               $('body,html').animate({
