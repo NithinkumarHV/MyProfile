@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 h1,
 h2,
 h3,
@@ -71,12 +74,17 @@ h1 {
 }
 
 .carousel-caption {
-  margin-bottom: 130px;
+  margin-bottom: 150px;
   padding: 10px;
   border: 1px solid white;
 }
 
 .card img {
+  width: 300px;
+  height: 200px;
+}
+
+#experience img {
   width: 300px;
   height: 200px;
 }
@@ -104,25 +112,65 @@ h1 {
   h2 {
     font-size: 28px;
   }
-
+  #testimonial p,
+  h5 {
+    font-size: 15px;
+  }
+  #showcase img {
+    width: 250px;
+    height: 250px;
+  }
   .card {
     margin: 0px 20px 20px 20px;
   }
 
-  .skill-item {
+  #projects img {
+    height: 400px;
+  }
+  .carousel-caption {
+    margin-bottom: 100px;
+    padding: 10px;
+    border: 1px solid white;
+  }
+
+  #experience .row {
+    margin: 0px 5px 0px 5px;
+  }
+
+  #education .row {
+    margin: 0px 10px 0px 10px;
+  }
+
+  #skills .row {
+    margin: 0px 50px 0px 50px;
+  }
+
+  #languages .row {
     margin: 0px 50px 0px 50px;
   }
 }
 
 /* sm */
 @media (min-width: 576px) and (max-width: 767px) {
+  .navbar-brand {
+    font-size: 28px;
+    color: black !important;
+    font-weight: bold;
+  }
   #showcase img {
     padding: 0px;
     width: 80%;
     height: 80%;
   }
-  h2 {
+  h1 {
     font-size: 28px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  #testimonial p,
+  h5 {
+    font-size: 15px;
   }
   .card {
     margin: 0px 20px 20px 20px;
